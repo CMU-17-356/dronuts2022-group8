@@ -2,8 +2,9 @@
   "name": "dronuts2022-group8",
   "version": "1.0.0",
   "description": "Dronuts app",
-  "main": "app.ts",
+  "main": "src/app.ts",
   "scripts": {
+    "start": "",
     "test": "jest",
     "lint": "eslint src/**",
     "check": "npm-check -u"

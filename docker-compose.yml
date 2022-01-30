@@ -2,6 +2,7 @@ version: '3'
 services:
 
   your_app:
+  dronuts:
     container_name: dronuts
     build: ./
     ports:
