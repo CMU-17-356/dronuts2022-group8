@@ -1,10 +1,11 @@
 {
   "name": "dronuts2022-group8",
   "version": "1.0.0",
-  "description": "In order to get ready to write productive code, complete the following steps during Sprint 0:",
-  "main": "index.js",
+  "description": "Dronuts app",
+  "main": "app.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/**"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,10 @@
   },
   "homepage": "https://github.com/CMU-17-356/dronuts2022-group8#readme",
   "devDependencies": {
-    "eslint": "^8.7.0"
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.8.0",
+    "eslint-config-google": "^0.14.0"
   },
   "dependencies": {
     "acorn": "^8.7.0",
